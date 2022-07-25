@@ -83,5 +83,5 @@ let name = prompt('Enter your name');
 console.log(name);
 let sname = prompt('Enter your second name');
 console.log(sname);
-let year = prompt('Enter the year of your birth');
+let year = +prompt('Enter the year of your birth');
 console.log(year);
