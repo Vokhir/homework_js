@@ -67,7 +67,7 @@ document.write(n);
 let firstName = "Volodymyr";
 let middleName = "Yuriyovych";
 let lastName = "Khmura";
-let person = firstName+middleName+lastName;
+let person = firstName+''+middleName+''+lastName;
 console.log(person);
 let person1=`${firstName} ${middleName} ${lastName}`;
 console.log(person1);
