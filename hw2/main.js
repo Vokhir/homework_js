@@ -60,15 +60,15 @@ console.log(Book3);
 let u6={name:'helen', username:'pussy_lover', password:'4jh56b4'};
 let u7={name:'bob', username:'katie', password:'kjln896jn'};
 let u8={name:'chuck', username:'GoD_Of_EvErYtHiNg', password:'hj23b5jh3'};
-let u9={name:'myroslava', username:'myroslava', password:'j4h5b6j4hb5'};
 let users=['u0', 'u1', 'u2',
     {name:'sarah', username:'dominator34', password:'dfg523'},
     {name:'stive', username:'boner', password:'zdzcx6v8z'},
     {name:'john', username:'gluttony', password:'4kj5n6k'},
-    u6,u7,u8,u9]
+    u6,u7,u8]
 users[0]={name:'frank', username:'pussy_cat', password:123};
 users[1]={name:'iryna', username:'Homelander', password:'qwerty123'};
 users[2]={name:'stanislav', username:'rem48', password:'4567nkr6jn'};
+users[9]={name:'myroslava', username:'myroslava', password:'j4h5b6j4hb5'};
 console.log(users[0].password);
 console.log(users[1].password);
 console.log(users[2].password);
