@@ -45,11 +45,9 @@ console.log(Book2);
 let Book3={title: 'Naughty priestess',
     pageCount: 4500,
     genre: 'erotic drama',
-    authors: [
-        {name:'goo goo dolls', age: 13},
+    authors: [{name:'goo goo dolls', age: 13},
         {name:'little crunchy', age: 76},
-        {name: 'Holy Cow', age: 84}
-    ]};
+        {name: 'Holy Cow', age: 84}]};
 console.log(Book3);
 
 // Створити масив з 10 об'єктами які описують сутніть "користувач". Поля: name, username,password. Вивести в консоль пароль кожного користувача
