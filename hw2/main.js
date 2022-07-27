@@ -30,19 +30,16 @@ let book3={title: 'Rage ',
 let Book1={title: 'Cooking with cannibals',
     pageCount: 800,
     genre: 'cooking',
-    authors: ['good boy', 'smelly fish', 'jerk himself']};
-Book1.authors[0]={name: 'good boy', age: 10};
-Book1.authors[1]={name:'smelly fish', age: 254};
-Book1.authors[2]={name:'jerk himself', age: 24};
+    authors: [{name: 'good boy', age: 10},
+        {name:'smelly fish', age: 254},
+        {name:'jerk himself', age: 24}]};
 console.log(Book1);
 
 let Book2={title: 'Horny little pony ',
     pageCount: 120,
     genre: 'fan-fiction',
-    authors:[
-        {name: 'bad dog', age: 36},
-        {name:'Samantha Fox', age: 57}
-    ]}
+    authors:[{name: 'bad dog', age: 36},
+        {name:'Samantha Fox', age: 57}]}
 console.log(Book2);
 
 let Book3={title: 'Naughty priestess',
@@ -50,25 +47,23 @@ let Book3={title: 'Naughty priestess',
     genre: 'erotic drama',
     authors: [
         {name:'goo goo dolls', age: 13},
-        {name:'little crunchy', age: 76}
+        {name:'little crunchy', age: 76},
+        {name: 'Holy Cow', age: 84}
     ]};
-Book3.authors[2]={name: 'Holy Cow', age: 84};
 console.log(Book3);
 
 // Створити масив з 10 об'єктами які описують сутніть "користувач". Поля: name, username,password. Вивести в консоль пароль кожного користувача
 
-let u6={name:'helen', username:'pussy_lover', password:'4jh56b4'};
-let u7={name:'bob', username:'katie', password:'kjln896jn'};
-let u8={name:'chuck', username:'GoD_Of_EvErYtHiNg', password:'hj23b5jh3'};
-let users=['u0', 'u1', 'u2',
+let users=[{name:'helen', username:'pussy_lover', password:'4jh56b4'},
+    {name:'bob', username:'katie', password:'kjln896jn'},
+    {name:'chuck', username:'GoD_Of_EvErYtHiNg', password:'hj23b5jh3'},
     {name:'sarah', username:'dominator34', password:'dfg523'},
     {name:'stive', username:'boner', password:'zdzcx6v8z'},
     {name:'john', username:'gluttony', password:'4kj5n6k'},
-    u6,u7,u8]
-users[0]={name:'frank', username:'pussy_cat', password:123};
-users[1]={name:'iryna', username:'Homelander', password:'qwerty123'};
-users[2]={name:'stanislav', username:'rem48', password:'4567nkr6jn'};
-users[9]={name:'myroslava', username:'myroslava', password:'j4h5b6j4hb5'};
+    {name:'frank', username:'pussy_cat', password:123},
+    {name:'iryna', username:'Homelander', password:'qwerty123'},
+    {name:'stanislav', username:'rem48', password:'4567nkr6jn'},
+    {name:'myroslava', username:'myroslava', password:'j4h5b6j4hb5'}]
 console.log(users[0].password);
 console.log(users[1].password);
 console.log(users[2].password);
