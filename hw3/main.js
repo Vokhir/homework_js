@@ -94,5 +94,5 @@ let y = +prompt('Write the second quantity y.');
 // //     Напишіть код який, за допомоги  оператора || буде присвоювати змінній х значення "default"  якщо значення змінної х являється falsy
 // //     (хибноподыбне, тобто кастується до false)
 
-let x = confirm('Enter meaning')||'default';
+let x = null || 'default';
 console.log(x)
