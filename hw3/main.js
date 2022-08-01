@@ -47,8 +47,8 @@ let day=prompt('Write the day of the month.');
 // //     Користувач вводить порядковий номер дня тижня і на екрані відображається інфа що заплановано на цей день
 // //     (можна замість плану на день, назву дня англійською).
 
-    let Day=prompt('Type the day of the week to show the schedule: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday.');
-        switch (Day){
+    let days=prompt('Type the day of the week to show the schedule: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday.');
+        switch (days){
             case 'Monday':
                 console.log('Clean your teeth.');
                 break;
