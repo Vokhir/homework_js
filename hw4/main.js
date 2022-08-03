@@ -7,11 +7,11 @@
 //     document.write(`<div>'listen'</div>` + i);
 // }
 // - За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом всередині.
-// i = 0;
-// while (i<20){
-//     document.write(`<div><h1>title</h1></div>`)
-//     i++;
-// }
+let i = 0;
+while (i<20){
+    document.write(`<div><h1>title</h1></div>`)
+    i++;
+}
 // - За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом і індексом всередині.
 // i = 0;
 // while (i<20){
@@ -22,9 +22,9 @@
 // - Використовуючи данні з масиву, за допомоги document.write та циклу
 // побудувати структуру по шаблону
 
-    // let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
-    //    for (const listOfItem of listOfItems) {
-    //    document.write(`<ul><li>${listOfItem}</li></ul>`)}
+    let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
+       for (const listOfItem of listOfItems) {
+       document.write(<ul>`<li>${listOfItem}</li>`</ul>)}
 
 // -----------------------------------------------
 
