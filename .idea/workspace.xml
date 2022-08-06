@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ff79f7f-b182-49f4-8b73-0e07a9ae06c4" name="Changes" comment="one">
+      <change afterPath="$PROJECT_DIR$/hw5/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw5/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,9 +17,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -46,7 +48,8 @@
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "copyright.profiles"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -62,7 +65,10 @@
       <workItem from="1659255087997" duration="18363000" />
       <workItem from="1659432298058" duration="416000" />
       <workItem from="1659517008210" duration="3732000" />
-      <workItem from="1659531847205" duration="5335000" />
+      <workItem from="1659531847205" duration="5512000" />
+      <workItem from="1659690810885" duration="2935000" />
+      <workItem from="1659693822814" duration="4263000" />
+      <workItem from="1659711902555" duration="16188000" />
     </task>
     <task id="LOCAL-00001" summary="one">
       <created>1658757199146</created>
@@ -148,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659537228899</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="one">
+      <created>1659543038722</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1659543038722</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,5 +181,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="one" />
     <option name="LAST_COMMIT_MESSAGE" value="one" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
