@@ -90,25 +90,25 @@ function arrayBlocks(array) {
 
 arrayBlocks(users);
 // - створити функцію яка повертає найменьше число з масиву
-let minofNum = (a, b, c, d)=>{
-    if (a<b & a<c && a<d){
-        console.log(a);
-    } else if (b<a & b<c && b<d){
-        console.log(b);
-    } else if (c<a & c<b && c<d){
-        console.log(c);
-    } else if (d<a & d<c && d<b){
-        console.log(d);
-    }
-
+function minofNumbers(array) {
+    return array.reduce((prev, curr) => prev < curr ? prev : curr, undefined)
 }
 
-minofNum(5, 6, 12, -3);
+
+let numer = [3, -14, 546, -3987, 1];
+let resulting = minofNumbers(numer);
+console.log(resulting);
+
+
 
 
 // - створити функцію яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад [1,2,10]->13
-let sumofNum = (a, b, c, d, e) => {
-    return a + b + c + d + e;
-};
-let sum = sumofNum(3, -984, 1048, 74, -45);
-console.log(sum);
+function sumofNumbers(array) {
+    return array.reduce(function(a, b){
+        return a + b;
+    }, 0);
+}
+
+let numArray = [1, 34, 23, -1111384, 3987536, 0.3];
+let res = sumofNumbers(numArray);
+console.log(res);
