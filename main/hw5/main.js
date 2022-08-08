@@ -1,24 +1,24 @@
 // - створити функцію яка обчислює та повертає площу прямокутника зі сторонами а і б
 function rectangleArea(a, b) {
-    let res = a + b;
-    console.log(res);
+    return a + b;
 }
-
-rectangleArea(12, 34);
+let resu = rectangleArea(12, 34);
+console.log(resu);
 // - створити функцію яка обчислює та повертає площу кола з радіусом r
 function circleArea(radius) {
-    let res=3.14*(radius*radius)
-    console.log(res);
+    return 3.14 * (radius * radius);
 }
-
-circleArea(57);
-// - створити функцію яка обчислює та повертає площу циліндру висотою h, та радіутом r
+let resul = circleArea(57);
+console.log(resul);
+// - створити функцію яка
+// обчислює та повертає площу циліндру висотою h, та радіутом r
 function cylinderArea(heigh, radius) {
-    let res = 2 * 3.14 * radius * (radius + heigh);
-    console.log(res);
+    return 2 * 3.14 * radius * (radius + heigh);
+
 }
 
-cylinderArea(40, 20);
+let result = cylinderArea(40, 20);
+console.log(result);
 // - створити функцію яка приймає масив та виводить кожен його елемент
 function itemofArray(array) {
     for (const arrayElement of array) {

@@ -5,20 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ff79f7f-b182-49f4-8b73-0e07a9ae06c4" name="Changes" comment="one">
-      <change afterPath="$PROJECT_DIR$/additional/hw5/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/hw5/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/additional/hw5/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw1/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/hw1/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/hw1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw2/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/hw2/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/hw3/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw3/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/hw3/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/hw4/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw4/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/hw4/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw4/maincss.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/hw4/maincss.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw5/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/hw2/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw5/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/hw5/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +72,7 @@
       <workItem from="1659690810885" duration="2935000" />
       <workItem from="1659693822814" duration="4263000" />
       <workItem from="1659711902555" duration="24945000" />
-      <workItem from="1659871058568" duration="1475000" />
+      <workItem from="1659871058568" duration="3702000" />
     </task>
     <task id="LOCAL-00001" summary="one">
       <created>1658757199146</created>
@@ -185,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659806342805</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="one">
+      <created>1659873705740</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1659873705740</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
