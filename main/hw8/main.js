@@ -238,4 +238,13 @@ let prince = new Prince('Edward', 157, 36);
 
 //     За допомоги циклу знайти яка попелюшка повинна бути з принцом.
 
+for (const girl of girls) {
+    if (girl.foot_size===prince.boot_size){
+        console.log(girl);
+    }
+}
+
 //     Додатково, знайти необхідну попелюшку за допомоги функції масиву find та відповідного колбеку
+let exactGirl = girls.find((obj) => obj['foot_size']===prince.boot_size)
+
+console.log(exactGirl);
