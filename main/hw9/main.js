@@ -256,17 +256,17 @@
 //
 //     - Створити довільний елемент з id = text.  Використовуючи JavaScript, зробіть так, щоб при натисканні на кнопку зникав елемент з id="text".
 
-let div = document.getElementById('text');
-div.style.background = 'blue';
-div.style.blockSize = '100px';
-div.style.width = '100px';
-
-let button = document.createElement('button');
-button.innerText = 'Click';
-button.onclick= function () {
-    document.getElementById('text').remove();
-}
-document.body.appendChild(button);
+// let div = document.getElementById('text');
+// div.style.background = 'blue';
+// div.style.blockSize = '100px';
+// div.style.width = '100px';
+//
+// let button = document.createElement('button');
+// button.innerText = 'Click';
+// button.onclick= function () {
+//     document.getElementById('text').remove();
+// }
+// document.body.appendChild(button);
 
 
 
@@ -274,23 +274,23 @@ document.body.appendChild(button);
 // ________________________________________________
 //     - створити інпут який приймає вік людини та кнопку яка підтверджує дію.При натисканні на кнопку зчитати інформацію з інпуту та перевірити вік чи меньше він ніж 18, та повідомити про це користувача
 
-let form = document.createElement('form');
-let input = document.createElement('input');
-input.type = 'number';
-input.name = 'age';
-input.placeholder = 'Enter your age';
-input.min = '1';
-let button1 = document.createElement('button');
-button1.innerText = 'Click';
-button1.onclick = function () {
-    if (input.value < 18) {
-        document.write('Stop there, your age is less then 18.');
-    } else {
-        document.write('You are older then 18, watch your porn. :P')
-    }
-};
-form.append(input, button1);
-document.body.appendChild(form);
+// let form = document.createElement('form');
+// let input = document.createElement('input');
+// input.type = 'number';
+// input.name = 'age';
+// input.placeholder = 'Enter your age';
+// input.min = '1';
+// let button1 = document.createElement('button');
+// button1.innerText = 'Click';
+// button1.onclick = function () {
+//     if (input.value < 18) {
+//         document.write('Stop there, your age is less then 18.');
+//     } else {
+//         document.write('You are older than 18, watch your porn. :P')
+//     }
+// };
+// form.append(input, button1);
+// document.body.appendChild(form);
 
 // _____________________________________________________
 // *** Створити 3 инпута та кнопку. Один визначає кількість рядків, другий - кількість ячеєк, третій вмиіст ячеєк.
@@ -298,22 +298,42 @@ document.body.appendChild(form);
 // (Додатковачастина для завдання)
 
 let form2 = document.createElement('form');
+form2.onsubmit = function (e) {
+    e.preventDefault();
+}
 let input1 = document.createElement('input');
 let input2 = document.createElement('input');
 let input3 = document.createElement('input');
 input1.type = 'number';
 input2.type = 'number';
 input3.type = 'text';
-input1.name = 'lines';
+input1.name = 'rows';
 input2.name = 'cells';
 input3.name = 'lines';
 input1.min = '1';
 input2.min = '1';
-input1.placeholder = 'Enter number of lines';
+input1.placeholder = 'Enter number of rows';
 input2.placeholder = 'Enter number of cells';
 input3.placeholder = 'Enter text';
 let button3 = document.createElement('button');
 button3.innerText = 'Submit';
 button3.onclick= function () {
-    
+    let table = document.createElement('table');
+    let tblBody = document.createElement('tbody');
+    for (let i = 0; i < input1.value; i++) {
+        let row = document.createElement('tr');
+        for (let j = 0; j < input2.value; j++) {
+            const cell = document.createElement('td');
+            cell.innerText = input3.value;
+            row.appendChild(cell);
+        }
+        tblBody.appendChild(row);
+    }
+
+    table.appendChild(tblBody);
+    document.body.appendChild(table);
+
+
 }
+form2.append(input1, input2, input3, button3);
+document.body.appendChild(form2);
