@@ -331,6 +331,7 @@ button3.onclick= function () {
     }
 
     table.appendChild(tblBody);
+    table.setAttribute("border", "2");
     document.body.appendChild(table);
 
 
